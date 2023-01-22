@@ -11,6 +11,7 @@
   --border-color: #eeeeee;
   --header-line: #ececec;
   --icon-color: #afb1b8;
+  --hover-blue: #188CE8;
 }
 .nav-list,
 .contacts,
@@ -88,11 +89,13 @@ p {
 .nav-link {
   font-weight: 500;
   color: var(--title-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-text.current {
   color: var(--accent-color);
   position: relative;
-}
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
 .current::after {
   position: absolute;
   display: block;
@@ -102,6 +105,7 @@ p {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-text {
   display: block;
@@ -139,7 +143,7 @@ p {
   width: 16px;
   height: 16px;
   fill: var(--text-color);
-  transform: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero {
   padding: 200px 0;
@@ -153,6 +157,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-title {
   text-transform: uppercase;
@@ -164,6 +169,7 @@ p {
   margin: 0 auto;
   line-height: 1.36;
   color: var(--hero-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button {
   font-weight: 700;
@@ -175,10 +181,11 @@ p {
   margin: 40px auto 0;
   border: none;
   cursor: pointer;
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   border-radius: 4px;
   display: block;
   letter-spacing: inherit;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .specifics {
   padding-top: 94px;
@@ -365,6 +372,10 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.button-filtr:hover,
+.button-filtr:focus {
+  background-color: var(--hover-blue);
+}
 .project-cart {
   padding: 20px 24px;
   border-right: 1px solid var(--border-color);
@@ -464,7 +475,7 @@ p {
 }
 .customers-icon {
   fill: var(--icon-color);
-  transition: fill 250ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer {
   padding: 60px 0;
@@ -559,6 +570,62 @@ p {
 .social-link:focus .footer-social-icon {
   fill: var(--hero-color);
 }
+.subsciption-conteiner {
+  margin-left: 93px;
+}
+.subscription-title {
+  padding: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--background-color);
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.subscription-field {
+  display: flex;
+}
+.subsription-input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  outline: transparent;
+  cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscription-button {
+  font-weight: 700;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  line-height: calc(30 / 16);
+  color: var(--hero-color);
+  width: 200px;
+  margin-left: 12px;
+  border: none;
+  cursor: pointer;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  letter-spacing: inherit;
+  align-items: center;
+  justify-content: center;
+}
+.subscription-icon {
+  margin-left: 10px;
+  fill: var(--background-color);
+}
+.subscription-button:hover,
+.subscription-button:focus {
+  color: var(--background-color);
+  background-color: var(--hover-blue);
+}
 .portfolio-filtr-link :hover,
 .portfolio-filtr-link :focus {
   color: var(--hero-color);
@@ -580,7 +647,7 @@ p {
 .modal {
   width: 528px;
   height: 581px;
-  background-color: #ffffff;
+  background-color: var(--background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   position: absolute;
@@ -614,7 +681,7 @@ p {
   line-height: calc(24 / 14);
   color: var(--text-color);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   cursor: pointer;
 }
@@ -622,6 +689,7 @@ p {
   width: 16px;
   height: 15px;
   border: 2px solid #212121;
+  margin-right: 8px;
   border-radius: 2px;
   display: flex;
   align-items: center;
@@ -632,6 +700,7 @@ p {
   color: var(--accent-color);
   font-size: 14px;
   line-height: calc( 24 / 14);
+  margin-left: 4px;
 }
 .visually-hidden {
   position: absolute;
@@ -721,6 +790,7 @@ p {
   width: 200px;
   padding: 10px 52px;
   margin: 30px auto;
+  margin-bottom: 0;
   border: none;
   cursor: pointer;
   background: var(--accent-color);
