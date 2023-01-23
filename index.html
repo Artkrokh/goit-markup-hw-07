@@ -18,34 +18,34 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
-    <header class="header">
-      <div class="container header-container">
+    <header class="menu">
+      <div class="container menu__container">
         <nav class="nav">
-          <a href="./index.html" class="logo-title"
-            >Web<span class="logo-head">Studio</span></a
+          <a href="./index.html" class="logo"
+            >Web<span class="menu__logo">Studio</span></a
           >
           <!-- Links to other pages or sections of the current page -->
-          <ul class="nav-list">
-            <li class="nav-link">
-              <a class="nav-text current" href="./index.html">Студія</a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__text current" href="./index.html">Студія</a>
             </li>
-            <li class="nav-link">
-              <a class="nav-text" href="./portfolio.html">Портфоліо</a>
+            <li class="nav__item">
+              <a class="nav__text" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="nav-link"><a class="nav-text" href="">Контакти</a></li>
+            <li class="nav__item"><a class="nav__text" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contacts">
-          <li class="contacts-link">
-            <a class="contacts-text" href="mailto:info@devstudio.com">
-              <svg class="contacts-icon" width="16" height="12">
+          <li class="contacts__item">
+            <a class="contacts__text" href="mailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>info@devstudio.com</a
             >
           </li>
-          <li class="contacts-link">
-            <a class="contacts-text" href="tel:+380961111111">
-              <svg class="contacts-icon" width="10" height="16">
+          <li class="contacts__item">
+            <a class="contacts__text" href="tel:+380961111111">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>+38 096 111 11 11</a
             >
@@ -57,7 +57,7 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button" data-modal-open>
             Замовити послугу
           </button>
@@ -65,8 +65,8 @@
       </section>
       <section class="specifics">
         <div class="container">
-          <h2 class="specifics-caption">короткий опис та характеристики</h2>
-          <ul class="specifics-list">
+          <h2 class="specifics__caption">короткий опис та характеристики</h2>
+          <ul class="specifics__list">
             <li class="specifics-link">
               <div class="planning">
                 <svg class="planning-icon" width="70" height="70">
@@ -380,28 +380,28 @@
     </main>
     <footer class="footer">
       <div class="container basement">
-        <div class="address-container">
-          <a href="./index.html" class="logo-title"
+        <div class="address__container">
+          <a href="./index.html" class="logo"
             >Web<span class="logo-footer">Studio</span></a
           >
           <address class="address">
-            <ul class="address-list">
-              <li class="address-link">
+            <ul class="address__list">
+              <li class="address__link">
                 <a
-                  class="location-text"
+                  class="location__text"
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noreferrer noopener"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="address-link">
-                <a href="mailto:info@devstudio.com" class="address-text"
+              <li class="address__link">
+                <a href="mailto:info@devstudio.com" class="address__text"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="address-link">
-                <a href="tel:+380961111111" class="address-text"
+              <li class="address__link">
+                <a href="tel:+380961111111" class="address__text"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -409,59 +409,59 @@
             <!-- A link to an external resource will open in the current tab -->
           </address>
         </div>
-        <div class="social-container">
-          <p class="social-title">приєднуйтесь</p>
-          <ul class="social-list list">
-            <li class="social-item">
-              <a href="" class="social-link">
-                <svg class="footer-social-icon" width="20" height="20">
+        <div class="social__container">
+          <p class="social__title">приєднуйтесь</p>
+          <ul class="social__list list">
+            <li class="social__item">
+              <a href="" class="social__link">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a href="" class="social-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="social__item">
+              <a href="" class="social__link">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a href="" class="social-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="social__item">
+              <a href="" class="social__link">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a href="" class="social-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="social__item">
+              <a href="" class="social__link">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="subsciption-conteiner">
-          <p class="subscription-title">Підпишіться на розсилку</p>
-          <form class="subscription-field">
+        <div class="subsciption__conteiner">
+          <p class="subscription__title">Підпишіться на розсилку</p>
+          <form class="subscription__field">
             <input
             type="email"
-            class="subscription-input"
+            class="subscription__input"
             name="user-email"
             required
             placeholder="E-mail">
-            <button type="submit" class="subscription-button">Підписатися<svg class="subscription-icon" width="24" height="24">
+            <button type="submit" class="subscription__button">Підписатися<svg class="subscription-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-telegram"></use>
             </svg></button>
           </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is__hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-button" data-modal-close>
-          <svg class="icon icon-close" width="11px" height="11px">
+        <button type="button" class="close__button" data-modal-close>
+          <svg class="icon icon__close" width="11px" height="11px">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
