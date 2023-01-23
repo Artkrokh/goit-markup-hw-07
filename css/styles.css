@@ -19,7 +19,7 @@
 .ocupation__list,
 .team__list,
 .address__list,
-.portfolio__filtr__link,
+.filtr__item,
 .project__item,
 .location__item,
 .list {
@@ -424,7 +424,7 @@ p {
   text-decoration: none;
 }
 .project__item:hover .project__top__text {
-    transform: translateY(0);
+  transform: translateY(0);
 }
 .project__top__wrap {
   position: relative;

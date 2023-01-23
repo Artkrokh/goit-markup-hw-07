@@ -40,7 +40,7 @@
             <a class="contacts__text" href="mailto:info@devstudio.com">
               <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
-                </svg>info@devstudio.com</a
+              </svg>info@devstudio.com</a
             >
           </li>
           <li class="contacts__item">
@@ -446,14 +446,17 @@
           <p class="subscription__title">Підпишіться на розсилку</p>
           <form class="subscription__field">
             <input
-            type="email"
-            class="subscription__input"
-            name="user-email"
-            required
-            placeholder="E-mail">
-            <button type="submit" class="subscription__button">Підписатися<svg class="subscription__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-telegram"></use>
-            </svg></button>
+              type="email"
+              class="subscription__input"
+              name="user-email"
+              required
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscription__button">
+              Підписатися<svg class="subscription__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -522,10 +525,21 @@
             ></textarea>
           </div>
           <div class="modal__checkbox">
-            <input type="checkbox" id="contract" name="consent" value="contract" class="input__checkbox visually__hidden">
-            <label for="contract" class="conditions__text"><span><svg class="check__icon" width="16" height="15">
-              <use href="./images/icons.svg#icon-check"></use>
-            </svg></span> Погоджуюся з розсилкою та приймаю <a class="contract-text" href=""> Умови договору</a></label>
+            <input
+              type="checkbox"
+              id="contract"
+              name="consent"
+              value="contract"
+              class="input__checkbox visually__hidden"
+            />
+            <label for="contract" class="conditions__text"
+              ><span
+                ><svg class="check__icon" width="16" height="15">
+                  <use href="./images/icons.svg#icon-check"></use></svg
+              ></span>
+              Погоджуюся з розсилкою та приймаю
+              <a class="contract-text" href=""> Умови договору</a></label
+            >
           </div>
           <button type="submit" class="send__button">Відправити</button>
         </form>
