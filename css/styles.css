@@ -368,13 +368,13 @@ p {
   padding: 0 15px;
   margin: 0 auto;
 }
-.portfolio__project__list {
+.project__list {
   display: flex;
   margin-top: 50px;
   flex-wrap: wrap;
   gap: 30px;
 }
-.portfolio__filtr__list {
+.filtr__list {
   display: flex;
   gap: 8px;
   justify-content: center;
@@ -408,7 +408,7 @@ p {
   margin-bottom: 4px;
   color: var(--title-color);
 }
-.project__link {
+.project__item {
   width: 370px;
   height: 404px;
   border: 1px solid var(--portfolio-projects-border-color);
