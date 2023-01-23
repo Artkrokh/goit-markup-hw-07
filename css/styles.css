@@ -420,10 +420,10 @@ p {
   line-height: 1.8;
   color: var(--text-color);
 }
-.project__item {
+.project__link {
   text-decoration: none;
 }
-.project__item:hover .project__top__text {
+.project__link:hover .project__top__text {
   transform: translateY(0);
 }
 .project__top__wrap {
