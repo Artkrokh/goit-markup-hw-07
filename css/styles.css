@@ -54,10 +54,10 @@ p {
   margin: 0 auto;
   padding: 0 15px;
 }
-.menu {
+.header {
   border-bottom: 1px solid var(--header-line);
 }
-.menu__container {
+.header__container {
   display: flex;
   align-items: center;
 }
