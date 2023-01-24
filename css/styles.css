@@ -368,12 +368,6 @@ p {
   padding: 0 15px;
   margin: 0 auto;
 }
-.project__list {
-  display: flex;
-  margin-top: 50px;
-  flex-wrap: wrap;
-  gap: 30px;
-}
 .filtr__list {
   display: flex;
   gap: 8px;
@@ -394,6 +388,13 @@ p {
 .button__filtr:hover,
 .button__filtr:focus {
   background-color: var(--hover-blue);
+  color: var(--hero-color);
+}
+.project__list {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .project__cart {
   padding: 20px 24px;
