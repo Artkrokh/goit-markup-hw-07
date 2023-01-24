@@ -40,3 +40,14 @@
     margin-top: 10px;
     color: var(--text-color);
 }
+
+.planning {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background: var(--background-team);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
