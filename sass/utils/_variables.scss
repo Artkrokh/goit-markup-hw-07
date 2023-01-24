@@ -1,0 +1,60 @@
+:root {
+    --title-color: #212121;
+    --hero-color: #ffffff;
+    --background-color: #ffffff;
+    --fon-color: #2f303a;
+    --accent-color: #2196f3;
+    --text-color: #757575;
+    --addres-text: rgba(255, 255, 255, 0.6);
+    --background-button: #f5f4fa;
+    --background-team: #f5f4fa;
+    --border-color: #eeeeee;
+    --header-line: #ececec;
+    --icon-color: #afb1b8;
+    --hover-blue: #188CE8;
+}
+
+.nav__list,
+.contacts,
+.specifics__list,
+.ocupation__list,
+.team__list,
+.address__list,
+.filtr__item,
+.project__item,
+.location__item,
+.list {
+    list-style: none;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    background-color: var(--background-color);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+h2 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
