@@ -637,8 +637,8 @@ p {
   color: var(--background-color);
   background-color: var(--hover-blue);
 }
-.portfolio__filtr__link :hover,
-.portfolio__filtr__link :focus {
+.filtr__link :hover,
+.filtr__link :focus {
   color: var(--hero-color);
   background-color: var(--accent-color);
 }
