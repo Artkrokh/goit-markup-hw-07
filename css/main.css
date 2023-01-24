@@ -59,6 +59,19 @@ p {
   padding: 0 15px;
 }
 
+.header {
+  border-bottom: 1px solid var(--header-line);
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
