@@ -14,6 +14,12 @@
   --hover-blue: #188CE8;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .nav__list,
 .contacts,
 .specifics__list,
@@ -200,12 +206,6 @@ p {
 .contacts__text:hover .contacts__icon,
 .contacts__text:focus .contacts__icon {
   fill: var(--accent-color);
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .hero {
